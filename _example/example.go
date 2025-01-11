@@ -3,14 +3,16 @@ package main
 import (
 	"bytes"
 	"fmt"
-	toml "github.com/BurntSushi/toml"
-	"github.com/qdongxu/tomlincl/incl"
 	"io"
 	"os"
 	"reflect"
 	"sort"
 	"strings"
 	"time"
+
+	"github.com/qdongxu/tomlincl/incl"
+
+	"github.com/BurntSushi/toml"
 )
 
 type (
