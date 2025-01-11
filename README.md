@@ -22,10 +22,12 @@ variable `$PATH`.
 
 1. Add `#!include` directives in the toml file:
 
-> #!include foo*.toml
-> #!include *bar.toml
-> #!include subdirfoo/*.toml
-> #!include subdirbar/*.toml
+```shell
+#!include foo*.toml
+#!include *bar.toml
+#!include subdirfoo/*.toml
+#!include subdirbar/*.toml
+```
 
 2. run the **tomlincl** command, the merged lines will print to the stdout:
 
