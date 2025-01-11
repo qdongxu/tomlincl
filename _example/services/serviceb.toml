@@ -1,3 +1,5 @@
 [[services]]
 name = "ServiceB"
-#!include serviceb/*toml
+
+# supports leading whitespaces
+     #!include serviceb/*toml

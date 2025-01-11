@@ -10,7 +10,7 @@ import (
 	"regexp"
 )
 
-var includeDirective = regexp.MustCompile(`^#!\s*include\s*(.*)\s*$`)
+var includeDirective = regexp.MustCompile(`^\s*#!\s*include\s*(.*)\s*$`)
 
 func ParseIncludeRecursively(path string, buf *bytes.Buffer) (io.Reader, error) {
 	reader, err := os.Open(path)
