@@ -7,6 +7,15 @@ toml semantics. Instead, it merely insert the text lines into the parent toml fi
 
 The `#!include` directives are parsed recursively in the discovered files.
 
+# Install
+
+1. Install the go binary
+> % go install github.com/qdongxu/tomlincl@v0.1.0
+
+2. The command **tomlincl** should be available on command line. Otherwise confirm
+the binary file **tomlincl** is under `$GOPATH/bin/` and add the path into the environment
+variable `$PATH`.
+
 # Usage
 
 1. Add `#!include` directives in the toml file:
