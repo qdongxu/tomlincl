@@ -3,9 +3,9 @@ A command line tool to parse a toml file and include other toml files.
 
 The **tomlincl** command parse a toml file, insert the contents from other toml
 files indicated by the `#!include` directives. **tomlincl** does not parse the
-toml semantics. Instead, it merely insert the text lines into the parent toml file.
+toml semantics. Instead, it merely insert the text lines into the parent configuration toml file.
 
-The `#!include` directives are parsed recursively in the discovered files.
+The `#!include` directives are parsed recursively in the discovered sub configuration files.
 
 This is a workaround related with https://github.com/BurntSushi/toml/issues/167
 
