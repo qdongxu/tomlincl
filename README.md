@@ -29,7 +29,7 @@ variable `$PATH`.
 #!include subdirbar/*.toml
 ```
 
-2. run the **tomlincl** command, the merged lines will print to the stdout:
+2. run the **tomlincl** command, the merged lines will be printed to the stdout:
 
 > % tomlincl \<root toml file\>
 
